@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Phone, MessageCircle, Menu, X } from "lucide-react";
 
-const navLinks = ["Rental Equipment", "Projects", "About", "Contact"];
+const navLinks = ["Projects", "About", "Contact"];
 
 const Header = () => {
   const [mobileOpen, setMobileOpen] = useState(false);
