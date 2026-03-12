@@ -20,10 +20,10 @@ const Header = () => {
         <div className="container mx-auto section-padding flex items-center justify-between py-4">
           <Link to="/" className="flex items-center gap-2">
             <div className="bg-primary text-primary-foreground p-2 rounded">
-              <span className="font-heading text-xl font-bold">MGC</span>
+              <span className="font-heading text-xl font-bold">KK & Sons</span>
             </div>
             <div className="hidden sm:block">
-              <span className="font-heading text-lg font-bold text-primary block leading-tight">Maa Gomti</span>
+              <span className="font-heading text-lg font-bold text-primary block leading-tight">KK &Sons</span>
               <span className="text-xs text-muted-foreground">Construction</span>
             </div>
           </Link>
@@ -33,7 +33,7 @@ const Header = () => {
               <Phone size={16} className="text-secondary" />
               <div>
                 <span className="text-muted-foreground block text-xs">Call Us</span>
-                <a href="tel:+919700707307" className="font-semibold text-foreground">(+91) 9700-707-307</a>
+                <a href="tel:+919700707307" className="font-semibold text-foreground">(+91) 8303361848</a>
               </div>
             </div>
             <div className="w-px h-10 bg-border" />
@@ -41,7 +41,7 @@ const Header = () => {
               <Mail size={16} className="text-secondary" />
               <div>
                 <span className="text-muted-foreground block text-xs">Email Us</span>
-                <a href="mailto:enquiry@mgcgroups.in" className="font-semibold text-foreground">enquiry@mgcgroups.in</a>
+                <a href="mailto:enquiry@mgcgroups.in" className="font-semibold text-foreground">khanshoaib38989@gmail.com</a>
               </div>
             </div>
             <div className="w-px h-10 bg-border" />
@@ -117,10 +117,10 @@ const Header = () => {
             )}
             <div className="mt-4 space-y-3 text-primary-foreground text-sm">
               <a href="tel:+919700707307" className="flex items-center gap-2">
-                <Phone size={14} /> (+91) 9700-707-307
+                <Phone size={14} /> (+91) 8303361848
               </a>
-              <a href="mailto:enquiry@mgcgroups.in" className="flex items-center gap-2">
-                <Mail size={14} /> enquiry@mgcgroups.in
+              <a href="mailto:khanshoaib38989@gmail.com" className="flex items-center gap-2">
+                <Mail size={14} /> khanshoaib38989@gmail.com
               </a>
             </div>
           </nav>
