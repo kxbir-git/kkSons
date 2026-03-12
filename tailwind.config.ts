@@ -53,7 +53,7 @@ export default {
         },
         construction: {
           dark: "hsl(var(--construction-dark))",
-          yellow: "hsl(var(--construction-yellow))",
+          red: "hsl(var(--construction-red))",
           gray: "hsl(var(--construction-gray))",
           light: "hsl(var(--construction-light))",
           blue: "hsl(var(--construction-blue))",

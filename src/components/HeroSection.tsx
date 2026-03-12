@@ -2,22 +2,20 @@ import heroImg from "@/assets/hero-loader.png";
 
 const HeroSection = () => {
   return (
-    <section className="relative min-h-[600px] lg:min-h-[700px] flex items-center overflow-hidden">
+    <section className="relative min-h-[500px] lg:min-h-[550px] flex items-end overflow-hidden">
       <div className="absolute inset-0">
-        <img src={heroImg} alt="Heavy construction equipment loader on site" className="w-full h-full object-cover" />
-        <div className="absolute inset-0 bg-gradient-to-r from-secondary/80 via-secondary/40 to-transparent" />
+        <img src={heroImg} alt="Construction site with heavy equipment" className="w-full h-full object-cover" />
+        <div className="absolute inset-0 bg-primary/40" />
       </div>
-      <div className="relative container mx-auto section-padding pt-24">
-        <div className="max-w-lg">
-          <h1 className="font-heading text-5xl md:text-6xl lg:text-7xl font-bold text-secondary-foreground leading-tight mb-4">
-            Dig yourself
-          </h1>
-          <p className="text-secondary-foreground/80 text-lg mb-8 max-w-md">
-            Rent! USA provides the heavy equipment you need for fast & easy work on any construction project.
-          </p>
-          <div className="flex flex-wrap gap-4">
-            <button className="btn-outline-light">Watch Video</button>
-            <button className="btn-primary">Rental Solutions</button>
+      <div className="relative w-full">
+        <div className="container mx-auto section-padding">
+          <div className="bg-primary/90 backdrop-blur-sm flex flex-col md:flex-row items-center justify-between gap-4 px-6 md:px-10 py-5 -mb-0">
+            <h2 className="font-heading text-xl md:text-2xl font-bold text-primary-foreground uppercase tracking-wide">
+              We understand your needs on construction
+            </h2>
+            <a href="#contact" className="btn-primary bg-secondary hover:bg-secondary/90 whitespace-nowrap text-sm py-2.5 px-6">
+              Request Quote
+            </a>
           </div>
         </div>
       </div>
