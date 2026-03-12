@@ -6,8 +6,8 @@ const TopBar = () => {
       <div className="container mx-auto section-padding flex items-center justify-between">
         <div className="flex items-center gap-2">
           <MapPin size={14} />
-          <span className="hidden sm:inline">B/19 E8, Ishwar Nagar, Dana Pani Road, Gulmohar, Bhopal</span>
-          <span className="sm:hidden">Bhopal, India</span>
+          <span className="hidden sm:inline">chatha mill sitapur road infront of Alliance, Lucknow , Uttarpradesh</span>
+          <span className="sm:hidden">Lucknow, Uttarpradesh, India</span>
         </div>
         <div className="flex items-center gap-4">
           <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" className="hover:text-secondary transition-colors" aria-label="Facebook">
