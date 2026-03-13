@@ -5,7 +5,7 @@ import AboutSection from "@/components/AboutSection";
 import StatsCounter from "@/components/StatsCounter";
 import ServicesSection from "@/components/ServicesSection";
 import RecentWork from "@/components/RecentWork";
-import TestimonialsSection from "@/components/TestimonialsSection";
+
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
 
