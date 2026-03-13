@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import { Phone, Mail, Menu, X } from "lucide-react";
+import { Phone, Mail, Menu, X, MessageCircle } from "lucide-react";
 
 const navLinks = [
   { label: "Home", href: "/" },
