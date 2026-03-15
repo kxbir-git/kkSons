@@ -22,6 +22,7 @@ const Index = () => {
       
       <ContactSection />
       <Footer />
+      <WhatsAppFloat />
     </div>
   );
 };
