@@ -22,7 +22,7 @@ const RecentWork = () => {
           {works.map((w) => (
             <StaggerItem key={w.title}>
               <div className="group relative overflow-hidden rounded cursor-pointer">
-                <img src={w.img} alt={w.title} className="w-full h-56 object-cover group-hover:scale-110 transition-transform duration-500" />
+                <img src={w.img} alt={w.title} loading="lazy" className="w-full h-56 object-cover group-hover:scale-110 transition-transform duration-500" />
                 <div className="absolute inset-0 bg-primary/0 group-hover:bg-primary/70 transition-colors duration-300 flex items-center justify-center">
                   <div className="text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 translate-y-4 group-hover:translate-y-0">
                     <h3 className="font-heading text-lg font-bold text-primary-foreground">{w.title}</h3>

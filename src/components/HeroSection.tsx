@@ -6,7 +6,7 @@ const HeroSection = () => {
   return (
     <section className="relative min-h-[500px] lg:min-h-[550px] flex items-end overflow-hidden">
       <div className="absolute inset-0">
-        <img src={heroImg} alt="Construction site with heavy equipment" className="w-full h-full object-cover" />
+        <img src={heroImg} alt="Construction site with heavy equipment" className="w-full h-full object-cover" loading="eager" />
         <div className="absolute inset-0 bg-primary/40" />
       </div>
       <div className="relative w-full">
