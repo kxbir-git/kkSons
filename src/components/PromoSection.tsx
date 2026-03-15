@@ -19,7 +19,7 @@ const PromoSection = () => {
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
             </p>
             <div className="bg-primary/20 border border-primary px-4 py-2 inline-block mb-6">
-              <span className="text-sm font-semibold">Offer valid from 10/01/2016 - 10/02/2016</span>
+              <span className="text-sm font-semibold"></span>
             </div>
             <div>
               <button className="btn-outline flex items-center gap-2">
