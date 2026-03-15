@@ -28,7 +28,7 @@ const ContactSection = () => {
                   </div>
                   <div>
                     <div className="text-sm text-primary-foreground/60">Email Us</div>
-                    <div className="font-semibold">enquiry@khanshoaib38989@gmail.com</div>
+                    <div className="font-semibold">khanshoaib38989@gmail.com</div>
                   </div>
                 </a>
               </StaggerItem>
