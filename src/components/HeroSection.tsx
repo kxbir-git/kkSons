@@ -20,9 +20,11 @@ const HeroSection = () => {
             <h2 className="font-heading text-xl md:text-2xl font-bold text-primary-foreground uppercase tracking-wide">
               We understand your needs on construction
             </h2>
-            <a href="#contact" className="btn-primary bg-secondary hover:bg-secondary/90 whitespace-nowrap text-sm py-2.5 px-6">
-              Request Quote
-            </a>
+            <EnquiryDialog>
+              <button className="btn-primary bg-secondary hover:bg-secondary/90 whitespace-nowrap text-sm py-2.5 px-6">
+                Request Quote
+              </button>
+            </EnquiryDialog>
           </motion.div>
         </div>
       </div>

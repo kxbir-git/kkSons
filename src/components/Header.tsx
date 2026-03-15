@@ -55,7 +55,9 @@ const Header = () => {
               <MessageCircle size={16} />
               WhatsApp
             </a>
-            <a href="#contact" className="btn-primary text-sm py-2.5 px-5">Get A Quote</a>
+            <EnquiryDialog>
+              <button className="btn-primary text-sm py-2.5 px-5">Get A Quote</button>
+            </EnquiryDialog>
           </div>
 
           <button
