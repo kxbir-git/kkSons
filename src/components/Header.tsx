@@ -34,7 +34,7 @@ const Header = () => {
               <Phone size={16} className="text-secondary" />
               <div>
                 <span className="text-muted-foreground block text-xs">Call Us</span>
-                <a href="tel:+919700707307" className="font-semibold text-foreground">(+91) 8303361848</a>
+                <a href="tel:+91 8303361848" className="font-semibold text-foreground">(+91) 8303361848</a>
               </div>
             </div>
             <div className="w-px h-10 bg-border" />
@@ -129,7 +129,7 @@ const Header = () => {
               )
             )}
             <div className="mt-4 space-y-3 text-primary-foreground text-sm">
-              <a href="tel:+919700707307" className="flex items-center gap-2">
+              <a href="tel:+918303361848" className="flex items-center gap-2">
                 <Phone size={14} /> (+91) 8303361848
               </a>
               <a href="mailto:khanshoaib38989@gmail.com" className="flex items-center gap-2">
